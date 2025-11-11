@@ -2,8 +2,9 @@
 
 > A colorful, animated GUI simulator for CPU scheduling algorithms built in **C (GTK3 + Cairo)**  
 
-<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/f9ec5556-f127-461a-b75e-a872e5347a28" />
-
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f9ec5556-f127-461a-b75e-a872e5347a28" width="90%" alt="CPU Scheduling Simulator main window" />
+</p>
 
 ---
 
@@ -44,12 +45,22 @@ and submitted to **Dr. Nilima Zade**, Department of Computer Science.
 
 ## 🖼️ Screenshots  
 
-| Main Window | Gantt Chart | About Dialog |
-|--------------|-------------|---------------|
-|<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/d9334a4d-6a0b-4f5b-b5b1-55f0a164fddb" />
- | <img width="1916" height="281" alt="image" src="https://github.com/user-attachments/assets/d2fef74e-a4b6-47a4-825a-1dc105e4d2b3" />
-| <img width="522" height="339" alt="image" src="https://github.com/user-attachments/assets/6ce87231-8ecc-4091-82c6-5ea1f3ac2108" />
- |
+<div align="center">
+
+### 🪟 Main Window  
+<img src="https://github.com/user-attachments/assets/d9334a4d-6a0b-4f5b-b5b1-55f0a164fddb" width="85%" alt="Main Window" />
+
+---
+
+### 📊 Gantt Chart Visualization  
+<img src="https://github.com/user-attachments/assets/d2fef74e-a4b6-47a4-825a-1dc105e4d2b3" width="85%" alt="Gantt Chart" />
+
+---
+
+### ℹ️ About Dialog  
+<img src="https://github.com/user-attachments/assets/6ce87231-8ecc-4091-82c6-5ea1f3ac2108" width="45%" alt="About Dialog" />
+
+</div>
 
 ---
 
