@@ -2,7 +2,7 @@
 
 > A colorful, animated GUI simulator for CPU scheduling algorithms built in **C (GTK3 + Cairo)**  
 
-![App Screenshot]<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/f9ec5556-f127-461a-b75e-a872e5347a28" />
+<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/f9ec5556-f127-461a-b75e-a872e5347a28" />
 
 
 ---
@@ -46,12 +46,10 @@ and submitted to **Dr. Nilima Zade**, Department of Computer Science.
 
 | Main Window | Gantt Chart | About Dialog |
 |--------------|-------------|---------------|
-| ![Main GUI]<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/d9334a4d-6a0b-4f5b-b5b1-55f0a164fddb" />
- | ![Gantt Chart]<img width="1916" height="281" alt="image" src="https://github.com/user-attachments/assets/d2fef74e-a4b6-47a4-825a-1dc105e4d2b3" />
-| ![About Dialog]<img width="522" height="339" alt="image" src="https://github.com/user-attachments/assets/6ce87231-8ecc-4091-82c6-5ea1f3ac2108" />
+|<img width="1919" height="1046" alt="image" src="https://github.com/user-attachments/assets/d9334a4d-6a0b-4f5b-b5b1-55f0a164fddb" />
+ | <img width="1916" height="281" alt="image" src="https://github.com/user-attachments/assets/d2fef74e-a4b6-47a4-825a-1dc105e4d2b3" />
+| <img width="522" height="339" alt="image" src="https://github.com/user-attachments/assets/6ce87231-8ecc-4091-82c6-5ea1f3ac2108" />
  |
-
-*(Replace these with your actual screenshots!)*  
 
 ---
 
