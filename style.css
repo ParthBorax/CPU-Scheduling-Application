@@ -1,0 +1,145 @@
+/* ================================
+   CPU Scheduler Simulator Theme
+   ================================ */
+
+/* Global background gradient */
+window {
+  background-image: linear-gradient(145deg, #1a0033, #200042, #2e0059, #3f0073);
+  color: #f0f0f0;
+}
+
+/* Header */
+#header_label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  background: linear-gradient(90deg, #ff4081, #7c4dff);
+  padding: 10px 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 20px rgba(255, 64, 129, 0.5);
+}
+
+/* Labels and text */
+label {
+  color: #d0d0ff;
+  font-weight: 600;
+}
+
+/* Input fields (spin buttons) */
+spinbutton {
+  background: rgba(40, 0, 80, 0.6);
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #7e57c2;
+  padding: 3px;
+}
+
+spinbutton:focus {
+  border: 1px solid #b388ff;
+  background: rgba(90, 0, 150, 0.7);
+}
+
+/* Combo box dropdowns */
+combobox, combobox button {
+  background: #26004d;
+  color: white;
+  border-radius: 8px;
+  border: 1px solid #9575cd;
+}
+
+combobox:hover {
+  background: #4a148c;
+}
+
+/* Check buttons */
+checkbutton {
+  color: white;
+}
+
+/* TreeView (results table) */
+treeview {
+  background: rgba(15, 0, 30, 0.6);
+  color: #ffffff;
+  border: 1px solid #4a148c;
+}
+
+treeview header button {
+  background: linear-gradient(90deg, #4a148c, #6a1b9a);
+  color: #fff;
+  font-weight: bold;
+}
+
+/* Frame around Gantt chart */
+frame {
+  background: transparent;
+  border: 2px solid #6a1b9a;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(138, 43, 226, 0.3);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(90deg, #1e88e5, #00acc1);
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  border: none;
+  padding: 6px 18px;
+  transition: all 200ms ease-in-out;
+  box-shadow: 0 0 10px rgba(33,150,243,0.6);
+}
+
+/* Hover glow (no transform) */
+button:hover {
+  background: linear-gradient(90deg, #42a5f5, #26c6da);
+  box-shadow: 0 0 25px rgba(100,181,246,0.9), 0 0 10px #2196f3 inset;
+  padding: 8px 24px; /* mimic a pop-out */
+}
+
+/* Pressed button */
+button:active {
+  background: linear-gradient(90deg, #0d47a1, #00838f);
+  box-shadow: 0 0 15px rgba(0,150,136,0.8) inset;
+}
+
+/* Pulsing "Run Simulation" button animation */
+@keyframes pulse {
+  0%   { background-color: #1e88e5; box-shadow: 0 0 5px #42a5f5; }
+  50%  { background-color: #42a5f5; box-shadow: 0 0 25px #90caf9; }
+  100% { background-color: #1e88e5; box-shadow: 0 0 5px #42a5f5; }
+}
+
+/* Active pulse during simulation */
+.running {
+  animation: pulse 1.2s infinite ease-in-out;
+  border-radius: 10px;
+  color: white;
+  padding: 8px 24px;
+}
+
+/* Scrollbars */
+scrollbar slider {
+  background: linear-gradient(90deg, #6a1b9a, #8e24aa);
+  border-radius: 8px;
+}
+
+/* Paned separator */
+paned > separator {
+  background-color: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+}
+
+/* Drawing area (Gantt chart) */
+drawingarea {
+  background: radial-gradient(circle at center, #210040 0%, #110020 100%);
+  border-radius: 12px;
+}
+
+/* Tooltip (optional glow) */
+tooltip {
+  background: rgba(30, 0, 60, 0.9);
+  color: #fff;
+  border-radius: 6px;
+  border: 1px solid #6a1b9a;
+}
+
